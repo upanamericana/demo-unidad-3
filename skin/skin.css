@@ -864,32 +864,32 @@ h1, h2, h3, h4, .ova-screen__title, .ova-quiz__question, .ova-acordeon__title, .
 
 /* 6 · Temario · la estructura de la unidad antes de entrar -------------- */
 .up-temario { display: flex; flex-direction: column; gap: 14px; margin: 36px 0; }
-.up-bloque {
+.ova-bloque {
   background: var(--bg-surface);
   border: 1px solid var(--borde, var(--border-c));
   border-left: 4px solid var(--tono, var(--c-acento));
   border-radius: var(--r-md);
   padding: 22px 26px;
 }
-.up-bloque__tag {
+.ova-bloque__tag {
   display: block; font-size: .7rem; letter-spacing: .18em; text-transform: uppercase;
   font-weight: 700; color: var(--tono, var(--c-acento)); margin-bottom: 12px;
 }
-.up-bloque ol { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 9px; }
-.up-bloque li { display: flex; gap: 12px; align-items: baseline; font-size: .99rem; }
-.up-bloque li .n {
+.ova-bloque ol { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 9px; }
+.ova-bloque li { display: flex; gap: 12px; align-items: baseline; font-size: .99rem; }
+.ova-bloque li .n {
   font-family: var(--font-display);
   font-size: .86rem; font-weight: 700; color: var(--text-mut);
   min-width: 22px; font-variant-numeric: tabular-nums;
 }
-.up-bloque li .t { display: inline-block; }
-.up-bloque li.sub { font-size: .93rem; color: var(--text-mut); }
-.up-bloque li.sub .t { position: relative; padding-left: 26px; }
-.up-bloque li.sub .t::before {
+.ova-bloque li .t { display: inline-block; }
+.ova-bloque li.sub { font-size: .93rem; color: var(--text-mut); }
+.ova-bloque li.sub .t { position: relative; padding-left: 26px; }
+.ova-bloque li.sub .t::before {
   content: ''; position: absolute; left: 4px; top: .62em;
   width: 13px; height: 1px; background: currentColor; opacity: .4;
 }
-.up-bloque li em { font-style: normal; color: var(--text-mut); font-size: .88rem; }
+.ova-bloque li em { font-style: normal; color: var(--text-mut); font-size: .88rem; }
 
 .up-descarga {
   display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
@@ -902,14 +902,14 @@ h1, h2, h3, h4, .ova-screen__title, .ova-quiz__question, .ova-acordeon__title, .
 .up-descarga__info span { font-size: .9rem; color: var(--text-mut); }
 
 /* 7 · Temario · marca por icono en las secciones estructurales -------------- */
-.up-bloque__tag { display: inline-flex; align-items: center; gap: 8px; }
-.up-bloque__tag iconify-icon { font-size: 1.1rem; }
-.up-bloque li .n--icono { color: var(--c-acento); }
-.up-bloque li .n--icono iconify-icon { font-size: 1.05rem; }
+.ova-bloque__tag { display: inline-flex; align-items: center; gap: 8px; }
+.ova-bloque__tag iconify-icon { font-size: 1.1rem; }
+.ova-bloque li .n--icono { color: var(--c-acento); }
+.ova-bloque li .n--icono iconify-icon { font-size: 1.05rem; }
 
 /* 9 · Índice navegable ---------------------------------------------------- */
-.up-bloque li { padding: 0; }
-.up-fila {
+.ova-bloque li { padding: 0; }
+.ova-fila {
   display: flex; align-items: baseline; gap: 12px;
   padding: 7px 10px 7px 8px;
   margin-left: -8px;
@@ -918,27 +918,27 @@ h1, h2, h3, h4, .ova-screen__title, .ova-quiz__question, .ova-acordeon__title, .
   color: inherit;
   transition: background .16s ease, color .16s ease;
 }
-.up-fila:hover, .up-fila:focus-visible {
+.ova-fila:hover, .ova-fila:focus-visible {
   background: color-mix(in srgb, var(--c-acento) 7%, transparent);
   color: var(--text-head);
 }
-.up-fila:focus-visible { outline: 2px solid var(--c-acento); outline-offset: 2px; }
-.up-fila__ir {
+.ova-fila:focus-visible { outline: 2px solid var(--c-acento); outline-offset: 2px; }
+.ova-fila__ir {
   margin-left: auto;
   color: var(--c-acento);
   opacity: 0;
   transform: translateX(-6px);
   transition: opacity .16s ease, transform .16s ease;
 }
-.up-fila:hover .up-fila__ir,
-.up-fila:focus-visible .up-fila__ir { opacity: 1; transform: translateX(0); }
-@media (hover: none) { .up-fila__ir { opacity: .45; transform: none; } }
+.ova-fila:hover .ova-fila__ir,
+.ova-fila:focus-visible .ova-fila__ir { opacity: 1; transform: translateX(0); }
+@media (hover: none) { .ova-fila__ir { opacity: .45; transform: none; } }
 
-a.up-bloque__tag--link { text-decoration: none; color: var(--c-acento); }
-a.up-bloque__tag--link:hover .up-fila__ir,
-a.up-bloque__tag--link:focus-visible .up-fila__ir { opacity: 1; transform: translateX(0); }
-a.up-bloque__tag--link .up-fila__ir { margin-left: 6px; }
-a.up-bloque__tag--link:focus-visible { outline: 2px solid var(--c-acento); outline-offset: 2px; border-radius: 4px; }
+a.ova-bloque__tag--link { text-decoration: none; color: var(--c-acento); }
+a.ova-bloque__tag--link:hover .ova-fila__ir,
+a.ova-bloque__tag--link:focus-visible .ova-fila__ir { opacity: 1; transform: translateX(0); }
+a.ova-bloque__tag--link .ova-fila__ir { margin-left: 6px; }
+a.ova-bloque__tag--link:focus-visible { outline: 2px solid var(--c-acento); outline-offset: 2px; border-radius: 4px; }
 
 /* 10 · Sección interna de un tema ------------------------------------------
    Los subtemas viven dentro de la página de su tema. El encabezado marca el
@@ -1246,15 +1246,15 @@ a.up-bloque__tag--link:focus-visible { outline: 2px solid var(--c-acento); outli
 
 /* 5 · Temario · lo que el índice del DI declara pendiente ------------------ */
 .up-temario--pendiente { margin-top: 0; }
-.up-temario--pendiente .up-bloque {
+.up-temario--pendiente .ova-bloque {
   background: transparent;
   border-style: dashed;
   border-left-color: color-mix(in srgb, var(--text-mut) 45%, transparent);
   color: var(--text-mut);
 }
-.up-temario--pendiente .up-bloque__tag { color: var(--text-mut); }
-.up-temario--pendiente .up-bloque li { padding-left: 14px; }
-.up-temario--pendiente .up-bloque li .n--icono { color: var(--text-mut); }
+.up-temario--pendiente .ova-bloque__tag { color: var(--text-mut); }
+.up-temario--pendiente .ova-bloque li { padding-left: 14px; }
+.up-temario--pendiente .ova-bloque li .n--icono { color: var(--text-mut); }
 
 /* =========================================================
    ADN POSGRADOS PANAMERICANA · componentes y ajustes propios
