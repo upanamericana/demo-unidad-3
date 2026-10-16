@@ -12,8 +12,8 @@
   <defs>
     <linearGradient id="ilu-cadena-fondo" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%"   stop-color="#E4EEEB"/>
-      <stop offset="55%"  stop-color="#EFEBE2"/>
-      <stop offset="100%" stop-color="#F7F4EE"/>
+      <stop offset="55%"  stop-color="#ECF1EF"/>
+      <stop offset="100%" stop-color="#F6F8F7"/>
     </linearGradient>
     <filter id="ilu-cadena-sombra" x="-30%" y="-30%" width="160%" height="160%">
       <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0A4039" flood-opacity="0.16"/>
@@ -140,10 +140,11 @@
     <path d="M952 202 l8 8 -8 8"/>
   </g>
 
-  <!-- La verificación vuelve sobre la evidencia: la que nadie revisa caduca -->
+  <!-- La verificación vuelve sobre la evidencia: la que nadie revisa caduca. Llega vertical al centro
+       de la evidencia y se detiene antes de su contorno (ronda del cliente del 2026-10-15). -->
   <g fill="none" stroke="#0F5C51" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".55">
-    <path d="M1060 96 C 1052 34, 852 34, 842 96"/>
-    <path d="M834 88 l8 10 8 -10"/>
+    <path d="M1060 96 C 1058 28, 830 24, 830 84"/>
+    <path d="M821 77 l9 11 9 -11"/>
   </g>
 
   <!-- Los nombres de los eslabones, literales del DI -->

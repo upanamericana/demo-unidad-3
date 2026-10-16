@@ -134,10 +134,13 @@
 
       <!-- Pasos · sugeridos por el DI -->
       <h3 class="up-rotulo" data-reveal><strong>El gobierno bien entendido habilita:</strong></h3>
-      <div class="ova-stepper" data-reveal>
-        <div class="ova-step"><div class="ova-step__num"><span>01</span></div><div class="ova-step__card"><h3><strong>Usar</strong></h3><p>Permite que un equipo use datos de otro dominio sabiendo qué significan y en qué condiciones puede hacerlo.</p></div></div>
-        <div class="ova-step"><div class="ova-step__num"><span>02</span></div><div class="ova-step__card"><h3><strong>Avanzar</strong></h3><p>Permite que un proyecto de analítica avance porque existe una base habilitante documentada y no porque nadie preguntó.</p></div></div>
-        <div class="ova-step"><div class="ova-step__num"><span>03</span></div><div class="ova-step__card"><h3><strong>Responder</strong></h3><p>Permite responder en horas a un requerimiento de la autoridad en lugar de en semanas.</p></div></div>
+      <!-- Pasos del DI en grilla de tarjetas con foto (ronda del cliente del 2026-10-15, fila S2): la pieza
+           sigue siendo ova-stepper; las fotos son provisionales hasta el banco de UP (Vitaly Gariev, Unsplash
+           License: UikYLDQj9_I, CdTQI-Nh7J4, Sc2iIlwScic). -->
+      <div class="ova-stepper up-tarjetas-foto" data-reveal>
+        <div class="ova-step"><div class="ova-step__num"><span>01</span></div><div class="ova-step__card"><figure class="up-tf__media"><img src="assets/img/curso/foto-usar.webp" alt="Un equipo reunido frente a una pantalla, una de ellas señala los datos." loading="lazy" /><h3><strong>Usar</strong></h3></figure><p>Permite que un equipo use datos de otro dominio sabiendo qué significan y en qué condiciones puede hacerlo.</p></div></div>
+        <div class="ova-step"><div class="ova-step__num"><span>02</span></div><div class="ova-step__card"><figure class="up-tf__media"><img src="assets/img/curso/foto-avanzar.webp" alt="Un equipo planea un proyecto frente a un tablero escrito." loading="lazy" /><h3><strong>Avanzar</strong></h3></figure><p>Permite que un proyecto de analítica avance porque existe una base habilitante documentada y no porque nadie preguntó.</p></div></div>
+        <div class="ova-step"><div class="ova-step__num"><span>03</span></div><div class="ova-step__card"><figure class="up-tf__media"><img src="assets/img/curso/foto-responder.webp" alt="Una profesional trabaja concentrada en su portátil." loading="lazy" /><h3><strong>Responder</strong></h3></figure><p>Permite responder en horas a un requerimiento de la autoridad en lugar de en semanas.</p></div></div>
       </div>
 
       <!-- Banner destacado · sugerido por el DI. Uno por sección. -->
@@ -190,6 +193,13 @@
       </section>
 
       <p data-reveal>Los roles del gobierno de datos se enuncian con facilidad y se asignan con dificultad, porque exigen nombres propios y tiempo protegido. Conviene distinguir seis roles, 4 iniciales y 2 últimos roles.</p>
+
+      <!-- Foto del cliente (docs/Catálogo de infografías-interactivos, «Se pueden usar las siguientes imágenes»), WebP 1600 px; ronda del 2026-10-15, filas S y X. Es oscura y lleva gráficos superpuestos (el manual, p. 28, pide sin filtros): se usa por ser del cliente. EDITORIAL · el pie no viene
+           del DI (parafrasea «exigen nombres propios»): se lista para que el cliente lo valide. -->
+      <figure class="up-foto-ancha" data-reveal>
+        <img src="assets/img/curso/foto-decision-informada.webp" alt="Dos manos se estrechan sobre una superposición de gráficos y cifras: un acuerdo apoyado en datos." loading="lazy" />
+        <figcaption>Los roles exigen nombres propios: alguien recibe la responsabilidad y la asume.</figcaption>
+      </figure>
 
       <!-- Carrusel · sugerido por el DI para los cuatro primeros roles -->
       <h3 class="up-rotulo" data-reveal><strong>4 primeros roles del gobierno de datos</strong></h3>
@@ -490,6 +500,53 @@
           <iframe src="https://player.vimeo.com/video/904024314" title="Video de apoyo del tema" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute; inset:0; width:100%; height:100%;"></iframe>
         </div>
       </div>
+
+      <!-- Pódcast · pieza del cliente (ronda del 2026-10-15, lámina «Podcast»; fila AA). EJEMPLO: audio y transcripción de
+           docs/Ejemplo pódcast (AAC 64 kbps mono), sobre seguridad IoT, no del DI. Título y descripción editoriales. -->
+      <section class="up-podcast" data-reveal>
+        <div class="up-podcast__cabecera">
+          <div class="up-podcast__portada" aria-hidden="true"><iconify-icon icon="mdi:microphone-outline"></iconify-icon></div>
+          <div>
+            <span class="up-podcast__eyebrow">Pódcast · Cierre de unidad</span>
+            <h3 class="up-podcast__titulo">Conectados con Seguridad: wearables, hogar inteligente y vehículos conectados</h3>
+            <p class="up-podcast__desc">Audio de ejemplo enviado por Posgrados Panamericana para mostrar la pieza; su tema no es el de esta unidad.</p>
+          </div>
+        </div>
+        <p class="up-cta"><span class="up-cta__mano" aria-hidden="true"><iconify-icon icon="mdi:cursor-pointer"></iconify-icon></span>Haga clic en el botón de reproducir para escuchar el pódcast.</p>
+        <div class="ova-audio" data-up-audio="assets/audio/podcast-ejemplo-cliente.m4a">
+          <button class="ova-audio__play" type="button" aria-label="Reproducir o pausar el pódcast"><iconify-icon icon="mdi:play"></iconify-icon></button>
+          <div class="ova-audio__info">
+            <div class="ova-audio__sub">5 min 11 s · toca la barra para adelantar o retroceder</div>
+            <div class="ova-audio__progress"><div class="ova-audio__progress-fill"></div></div>
+          </div>
+          <div class="ova-audio__time">5:11</div>
+        </div>
+        <details class="up-podcast__transcripcion">
+          <summary>Leer transcripción del pódcast</summary>
+          <div class="up-podcast__texto">
+            <p><strong>Laura Hernández:</strong> Hola, bienvenida y bienvenido a Conectados con Seguridad, el espacio donde exploramos las tecnologías que están transformando nuestra vida y los desafíos de seguridad que las acompañan.</p>
+            <p>Soy Laura Hernández, y en este episodio hablaremos sobre algunos de los dispositivos IoT más presentes en nuestro día a día: los wearables, los hogares inteligentes y los vehículos conectados. Probablemente hoy lleva un reloj inteligente en la muñeca, tiene un asistente virtual en casa, o utiliza aplicaciones que se conectan a su automóvil. Todos estos dispositivos forman parte del internet de las cosas y generan enormes beneficios, pero también nuevos riesgos de ciberseguridad. Para profundizar en este tema, nos acompaña Miguel Torres, especialista en soluciones IoT. ¡Bienvenido, Miguel!</p>
+            <p><strong>Miguel Torres:</strong> Muchas gracias, Laura. Es un gusto participar en este espacio y conversar sobre una tecnología que cada día está más integrada en nuestra vida cotidiana.</p>
+            <p><strong>Laura Hernández:</strong> Miguel, para comenzar: ¿qué tienen en común los wearables, los hogares inteligentes y los vehículos conectados?</p>
+            <p><strong>Miguel Torres:</strong> Todos forman parte del ecosistema IoT. Son dispositivos capaces de recopilar información, comunicarse con otros sistemas y ofrecer servicios inteligentes gracias a su conexión a internet. Aunque tienen funciones distintas, comparten la capacidad de generar y transmitir datos en tiempo real.</p>
+            <p><strong>Laura Hernández:</strong> Hablemos primero de los wearables. ¿Qué son exactamente?</p>
+            <p><strong>Miguel Torres:</strong> Los wearables son dispositivos electrónicos diseñados para ser utilizados por las personas durante sus actividades diarias. Los ejemplos más conocidos son los relojes inteligentes, las pulseras deportivas y los monitores de salud. Estos dispositivos pueden medir frecuencia cardíaca, calidad del sueño, actividad física e incluso ubicación geográfica.</p>
+            <p><strong>Laura Hernández:</strong> Y precisamente, dado que recopilan tantos datos personales, imagino que existen riesgos importantes.</p>
+            <p><strong>Miguel Torres:</strong> Así es. La información biométrica y de ubicación tiene un gran valor. Si un dispositivo no cuenta con mecanismos adecuados de protección, podría producirse el acceso no autorizado a datos sensibles o incluso el seguimiento de los movimientos de una persona.</p>
+            <p><strong>Laura Hernández:</strong> Pasemos ahora al hogar inteligente. Cada vez es más común encontrar cámaras IP, asistentes virtuales o cerraduras conectadas.</p>
+            <p><strong>Miguel Torres:</strong> Exactamente. El concepto de Smart Home busca automatizar tareas y mejorar la comodidad de los usuarios. Podemos controlar luces, cámaras, sistemas de climatización o dispositivos de seguridad desde un teléfono móvil. Sin embargo, cuando las configuraciones son deficientes o las contraseñas son débiles, estos dispositivos pueden convertirse en puertas de entrada para atacantes.</p>
+            <p><strong>Laura Hernández:</strong> Es interesante porque muchas veces las personas piensan en la comodidad, pero no necesariamente en la seguridad.</p>
+            <p><strong>Miguel Torres:</strong> Correcto. Un dispositivo mal configurado puede exponer información privada o permitir accesos remotos no autorizados. Por eso, es importante actualizar el firmware, cambiar las credenciales predeterminadas y utilizar mecanismos de autenticación seguros.</p>
+            <p><strong>Laura Hernández:</strong> ¿Y en el caso de los vehículos conectados, qué beneficios ofrecen?</p>
+            <p><strong>Miguel Torres:</strong> Los vehículos conectados incorporan tecnologías como GPS, diagnósticos remotos, asistencia a la conducción y actualizaciones OTA, es decir, actualizaciones realizadas a través de internet. Esto mejora la experiencia del usuario y permite nuevas funcionalidades. Sin embargo, también aumenta la superficie de ataque, ya que un incidente de seguridad podría afectar sistemas críticos del vehículo.</p>
+            <p><strong>Laura Hernández:</strong> Entonces, podríamos decir que mientras más conectividad existe, mayor atención debemos prestar a la protección de los dispositivos.</p>
+            <p><strong>Miguel Torres:</strong> Exactamente. La conectividad aporta enormes ventajas, pero también exige una cultura de seguridad. Comprender cómo funcionan estos dispositivos y aplicar buenas prácticas es fundamental para aprovechar sus beneficios sin comprometer la privacidad o la seguridad.</p>
+            <p><strong>Laura Hernández:</strong> Miguel, muchas gracias por acompañarnos y ayudarnos a comprender mejor cómo los wearables, los hogares inteligentes y los vehículos conectados están transformando nuestra forma de vivir.</p>
+            <p><strong>Miguel Torres:</strong> Gracias a ti, Laura. Ha sido un placer compartir este espacio.</p>
+            <p><strong>Laura Hernández:</strong> Gracias a todas y todos por acompañarnos en este episodio de Conectados con Seguridad. Nos escuchamos en el próximo capítulo para seguir explorando los desafíos y las oportunidades de la ciberseguridad en el internet de las cosas. ¡Hasta la próxima!</p>
+          </div>
+        </details>
+      </section>
 
 <!-- ova:extras -->
 <style>

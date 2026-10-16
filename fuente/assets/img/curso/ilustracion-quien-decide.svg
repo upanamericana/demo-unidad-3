@@ -14,8 +14,8 @@
   <defs>
     <linearGradient id="ilu-quiendecide-fondo" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%"   stop-color="#E4EEEB"/>
-      <stop offset="55%"  stop-color="#EFEBE2"/>
-      <stop offset="100%" stop-color="#F7F4EE"/>
+      <stop offset="55%"  stop-color="#ECF1EF"/>
+      <stop offset="100%" stop-color="#F6F8F7"/>
     </linearGradient>
     <filter id="ilu-quiendecide-sombra" x="-30%" y="-30%" width="160%" height="160%">
       <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0A4039" flood-opacity="0.16"/>
@@ -163,10 +163,12 @@
     <path d="M906 204 l8 8 -8 8"/>
   </g>
 
-  <!-- Quien vela lo hace contra la definición: la flecha vuelve sobre ella -->
+  <!-- Quien vela lo hace contra la definición: la flecha vuelve sobre ella. Llega vertical al centro
+       de la definición y se detiene antes de las hojas de atrás (ronda del cliente del 2026-10-15: la
+       punta chocaba con la esquina de las versiones anteriores). -->
   <g fill="none" stroke="#0F5C51" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".55">
-    <path d="M1040 88 C 1030 16, 600 12, 560 40"/>
-    <path d="M552 34 l8 10 8 -10"/>
+    <path d="M1040 86 C 1040 36, 1022 14, 984 14 H 488 C 470 14, 460 20, 460 38"/>
+    <path d="M451 30 l9 10 9 -10"/>
   </g>
 
   <!-- Las tres funciones y lo que hace cada una, literales del DI -->

@@ -31,7 +31,7 @@ module.exports = {
   },
 
   course: {
-    code:             'UNIDAD 3',
+    code:             'SEMANA 3',
     name:             'Gobierno, calidad y protección de datos',
     subtitle:         'Datos y Persistencia Avanzada: Diseño, Performance y Gobierno',
     duration:         '',
@@ -50,7 +50,7 @@ module.exports = {
      <section> en el HTML y alimenta el menú lateral. */
   menu: [
     { id: 'portada',         titulo: 'Inicio',                                    tipo: 'especial', icon: 'mdi:home-outline' },
-    { id: 'temario',         titulo: 'Contenido de la unidad',                    tipo: 'especial', icon: 'mdi:map-outline' },
+    { id: 'temario',         titulo: 'Contenido',                                tipo: 'especial', icon: 'mdi:map-outline' },
 
     { id: 'introduccion',    titulo: 'Introducción',                              tipo: 'especial', icon: 'mdi:information-variant',
       secciones: [ { titulo: '¿Qué va a lograr en esta unidad?', ancla: 'que-va-a-lograr' } ] },
@@ -61,7 +61,7 @@ module.exports = {
 
     /* Conclusión y Glosario: ocultos por defecto (decisión del 2026-10-10). El DI de este demo
        no los trae: la conclusión es una sección aparte del curso y el glosario va en el LMS. */
-    { id: 'evaluacion',      titulo: 'Evaluación de la unidad',                   tipo: 'especial', icon: 'mdi:clipboard-check-outline', nota: '1 pregunta' },
+    { id: 'evaluacion',      titulo: 'Evaluación',                              tipo: 'especial', icon: 'mdi:clipboard-check-outline', nota: '1 pregunta' },
     { id: 'referencias',     titulo: 'Referencias',                               tipo: 'especial', icon: 'mdi:bookmark-outline' },
   ],
 

@@ -9,8 +9,8 @@
   <defs>
     <linearGradient id="ilu-doscifras-fondo" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%"   stop-color="#E4EEEB"/>
-      <stop offset="55%"  stop-color="#EFEBE2"/>
-      <stop offset="100%" stop-color="#F7F4EE"/>
+      <stop offset="55%"  stop-color="#ECF1EF"/>
+      <stop offset="100%" stop-color="#F6F8F7"/>
     </linearGradient>
     <filter id="ilu-doscifras-sombra" x="-30%" y="-30%" width="160%" height="160%">
       <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0A4039" flood-opacity="0.16"/>
@@ -80,12 +80,13 @@
 
   <!-- ══ ¿De qué regla salen? De ninguna ══ -->
   <g fill="none" stroke="#0F5C51" stroke-width="3" stroke-linecap="round" opacity=".5">
-    <path d="M380 268 C 416 322, 428 348, 464 352" stroke-dasharray="7 7"/>
-    <path d="M820 268 C 784 322, 772 348, 736 352" stroke-dasharray="7 7"/>
+    <path d="M380 268 C 416 322, 420 352, 452 352" stroke-dasharray="7 7"/>
+    <path d="M820 268 C 784 322, 780 352, 748 352" stroke-dasharray="7 7"/>
   </g>
-  <path d="M456 344 l10 8 -10 8" fill="none" stroke="#0F5C51" stroke-width="3"
+  <!-- las puntas siguen la línea y se detienen antes del recuadro (ronda del 2026-10-15) -->
+  <path d="M444 344 l10 8 -10 8" fill="none" stroke="#0F5C51" stroke-width="3"
         stroke-linecap="round" stroke-linejoin="round" opacity=".7"/>
-  <path d="M744 344 l-10 8 10 8" fill="none" stroke="#0F5C51" stroke-width="3"
+  <path d="M756 344 l-10 8 10 8" fill="none" stroke="#0F5C51" stroke-width="3"
         stroke-linecap="round" stroke-linejoin="round" opacity=".7"/>
 
   <!-- El lugar de la regla: nada escrito, nadie firma, ningún sello -->
